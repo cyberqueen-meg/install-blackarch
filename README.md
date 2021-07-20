@@ -4,7 +4,7 @@ Setup:
 
 git clone https://github.com/mhowell11/install-blackarch.git
 
-chmod 777 install-blackarch.sh
+chmod 777 blackarch.sh
 
 ./blackarch.sh
 
