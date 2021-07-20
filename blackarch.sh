@@ -1,3 +1,15 @@
+# Run https://blackarch.org/strap.sh as root and follow the instructions.
+$ curl -O https://blackarch.org/strap.sh
+
+# The SHA1 sum should match: 34b1a3698a4c971807fb1fe41463b9d25e1a4a09
+$ sha1sum strap.sh
+
+# Set execute bit
+$ chmod +x strap.sh
+
+# Run strap.sh
+$ sudo ./strap.sh
+
 sudo pacman -S blackarch-webapp
 sudo pacman -S blackarch-fuzzer
 sudo pacman -S blackarch-scanner
